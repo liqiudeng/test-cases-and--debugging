@@ -12,7 +12,7 @@ let outputs = [
 ]
 
 /*
-Make this function return the sum of the two numbers that are passed to it. If one of the numbers is not passed, or if anything other than numbers are passed, return undefined.
+Make this function return the sum of the two numbers that are passed to it. If the input array length is not 2, or if anything other than numbers are passed, return undefined.
 */
 function f(input) {
     
