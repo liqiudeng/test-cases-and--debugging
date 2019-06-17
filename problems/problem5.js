@@ -7,9 +7,12 @@ let outputs = [14, 12, 0, 22, -15];
 
 /*
 The input of the function is an array.
-Make this function return the product of the two numbers in the array. If the input array length is not 2, or if anything other than numbers are passed, return undefined.
+Make this function return the product of the two numbers in the array. If the input array length is not 2,
+ or if anything other than numbers are passed, return undefined.
 */
 function f(input) {
+  if (input.length !== 2) return undefined;
+  if (!typeof input == "number") return undefined;
   return input[0] * input[1];
 }
 function runTest(i) {
